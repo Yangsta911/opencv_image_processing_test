@@ -4,7 +4,7 @@ import pytesseract
 from imutils.perspective import four_point_transform
 from imutils import contours
 
-img = cv.imread("WechatIMG25761.jpg")
+img = cv.imread("Test_Image_1.jpg")
 cv.imshow("Display window", img)
 k = cv.waitKey(0)
 
